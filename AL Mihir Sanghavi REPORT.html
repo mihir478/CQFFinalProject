@@ -9627,6 +9627,68 @@ Turnover Costs: 214.0000
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=02cef61d-421a-4e3d-ba81-d5db8f934117">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Pros-and-Cons-of-the-Strategies"><strong>Pros and Cons of the Strategies</strong><a class="anchor-link" href="#Pros-and-Cons-of-the-Strategies">¶</a></h3><h4 id="1.-Trend-Following">1. <strong>Trend-Following</strong><a class="anchor-link" href="#1.-Trend-Following">¶</a></h4><ul>
+<li><strong>Pros</strong>:<ul>
+<li>Captures prolonged market trends effectively.</li>
+<li>EMA and ADX provide robust signal generation in trending markets.</li>
+</ul>
+</li>
+<li><strong>Cons</strong>:<ul>
+<li>Generates false signals in sideways markets.</li>
+<li>Suffers during periods of rapid trend reversals.</li>
+</ul>
+</li>
+</ul>
+<h4 id="2.-Mean-Reversion">2. <strong>Mean-Reversion</strong><a class="anchor-link" href="#2.-Mean-Reversion">¶</a></h4><ul>
+<li><strong>Pros</strong>:<ul>
+<li>Effective in identifying price overextensions in range-bound markets.</li>
+<li>Z-scores and OU processes are mathematically robust.</li>
+</ul>
+</li>
+<li><strong>Cons</strong>:<ul>
+<li>Struggles in trending or volatile markets.</li>
+<li>Requires precise calibration of reversion thresholds.</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h3 id="Suggested-Improvements"><strong>Suggested Improvements</strong><a class="anchor-link" href="#Suggested-Improvements">¶</a></h3><ol>
+<li><p><strong>Dynamic Strategy Switching</strong>:</p>
+<ul>
+<li>Incorporate market condition detectors (e.g., trend/volatility classifiers) to switch between trend-following and mean-reversion strategies dynamically.</li>
+</ul>
+</li>
+<li><p><strong>Parameter Optimization</strong>:</p>
+<ul>
+<li>Use Bayesian optimization or genetic algorithms to fine-tune thresholds and indicator parameters.</li>
+</ul>
+</li>
+<li><p><strong>Hybrid Approaches</strong>:</p>
+<ul>
+<li>Combine mean-reversion with trend-following (e.g., entering a trend-following strategy post mean-reversion signal).</li>
+</ul>
+</li>
+<li><p><strong>Risk Management Enhancements</strong>:</p>
+<ul>
+<li>Include trailing stops and adaptive position sizing based on market volatility.</li>
+</ul>
+</li>
+<li><p><strong>Advanced Features</strong>:</p>
+<ul>
+<li>Integrate machine learning models for predictive insights and signal validation.</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
 </main>
 </body>
 </html>
